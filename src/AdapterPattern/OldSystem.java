@@ -1,5 +1,5 @@
 package AdapterPattern;
-// Адаптируемый класс (Старая система)
+
 // OldSystem представляет собой существующую систему со своим собственным методом 'performOldAction'.
 class OldSystem {
     public void performOldAction() {
