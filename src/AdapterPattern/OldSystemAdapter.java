@@ -1,5 +1,4 @@
 package AdapterPattern;
-// Адаптер
 
 class OldSystemAdapter implements NewSystem {
     private OldSystem oldSystem;
@@ -11,7 +10,6 @@ class OldSystemAdapter implements NewSystem {
     @Override
     public void performNewAction() {
         System.out.println("Адаптер конвертирует и делегирует новое действие старой системе.");
-        // Адаптер вызывает метод 'performOldAction' у 'OldSystem'.
         oldSystem.performOldAction();
     }
 }
