@@ -1,4 +1,4 @@
-*KAIRKHANOV ABYLAIKHAN SE - 2221*
+**KAIRKHANOV ABYLAIKHAN SE - 2221**
 
 
 Пример использования паттерна "Адаптер" в Java
